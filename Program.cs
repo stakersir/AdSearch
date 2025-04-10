@@ -1,14 +1,14 @@
-namespace TestTask
+п»їnamespace TestTask
 {
     /// <summary>
-    /// Основной класс программы.
+    /// РћСЃРЅРѕРІРЅРѕР№ РєР»Р°СЃСЃ РїСЂРѕРіСЂР°РјРјС‹.
     /// </summary>
     public class Program
     {
         /// <summary>
-        /// Точка входа в программу.
+        /// РўРѕС‡РєР° РІС…РѕРґР° РІ РїСЂРѕРіСЂР°РјРјСѓ.
         /// </summary>
-        /// <param name="args">Аргументы командной строки.</param>
+        /// <param name="args">РђСЂРіСѓРјРµРЅС‚С‹ РєРѕРјР°РЅРґРЅРѕР№ СЃС‚СЂРѕРєРё.</param>
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
