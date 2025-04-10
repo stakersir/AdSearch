@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "TestTask.Controllers.MarketingController",
+    "Method": "GetSpaceList",
+    "RelativePath": "api/Marketing/GetSpaceList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "localtion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestTask.Controllers.MarketingController",
+    "Method": "LoadFile",
+    "RelativePath": "api/Marketing/LoadFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
